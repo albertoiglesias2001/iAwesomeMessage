@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		658E59161E53048A009747C8 /* iAwesomeMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 658E59121E53048A009747C8 /* iAwesomeMessage.m */; };
+		658E59171E53048A009747C8 /* RNBlurModalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 658E59151E53048A009747C8 /* RNBlurModalView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		471E98641A758ED200588D2F /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		471E98661A758ED200588D2F /* libiAwesomeMessage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libiAwesomeMessage.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		658E59111E53048A009747C8 /* iAwesomeMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iAwesomeMessage.h; sourceTree = SOURCE_ROOT; };
+		658E59121E53048A009747C8 /* iAwesomeMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iAwesomeMessage.m; sourceTree = SOURCE_ROOT; };
+		658E59131E53048A009747C8 /* iCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCore.h; sourceTree = SOURCE_ROOT; };
+		658E59141E53048A009747C8 /* RNBlurModalView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBlurModalView.h; sourceTree = SOURCE_ROOT; };
+		658E59151E53048A009747C8 /* RNBlurModalView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNBlurModalView.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		471E98631A758ED200588D2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		471E985D1A758ED200588D2F = {
+			isa = PBXGroup;
+			children = (
+				471E98681A758ED200588D2F /* iAwesomeMessage */,
+				471E98671A758ED200588D2F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		471E98671A758ED200588D2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				471E98661A758ED200588D2F /* libiAwesomeMessage.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		471E98681A758ED200588D2F /* iAwesomeMessage */ = {
+			isa = PBXGroup;
+			children = (
+				658E59111E53048A009747C8 /* iAwesomeMessage.h */,
+				658E59121E53048A009747C8 /* iAwesomeMessage.m */,
+				658E59131E53048A009747C8 /* iCore.h */,
+				658E59141E53048A009747C8 /* RNBlurModalView.h */,
+				658E59151E53048A009747C8 /* RNBlurModalView.m */,
+			);
+			name = iAwesomeMessage;
+			path = iMQTT;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		471E98651A758ED200588D2F /* iAwesomeMessage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 471E987A1A758ED300588D2F /* Build configuration list for PBXNativeTarget "iAwesomeMessage" */;
+			buildPhases = (
+				471E98621A758ED200588D2F /* Sources */,
+				471E98631A758ED200588D2F /* Frameworks */,
+				471E98641A758ED200588D2F /* Copy Files */,
+				650C2C621A837DE8004BEDF0 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iAwesomeMessage;
+			productName = iMQTT;
+			productReference = 471E98661A758ED200588D2F /* libiAwesomeMessage.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		471E985E1A758ED200588D2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Visual net";
+				TargetAttributes = {
+					471E98651A758ED200588D2F = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 471E98611A758ED200588D2F /* Build configuration list for PBXProject "iAwesomeMessage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 471E985D1A758ED200588D2F;
+			productRefGroup = 471E98671A758ED200588D2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				471E98651A758ED200588D2F /* iAwesomeMessage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		650C2C621A837DE8004BEDF0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\nprintf \"****** SCRIPT AFTER BUILD ***************************\\n\"\necho -n \"Target Directory:\" ${TARGET_BUILD_DIR} && printf \"\\n\"\necho -n \"Product Name:\" ${PRODUCT_NAME} && printf \"\\n\"\nprintf \"*****************************************************\\n\"\n#----------------------------------------------------------------\n#FolderOutputXML=\"/Users/iglesias/Documents/SourceCode/B4i/iAwesomeMenu/XML/\"\n#FolderOutputLIBSB4SERVER=\"/Users/iglesias/Development/B4i-MacServer/Libs/\"\n#FolderOutputLIBSB4IEXTRA=\"/Users/iglesias/Development/B4i-MacServer/LibExtra/\"\n#/Users/iglesias/Documents/SourceCode/B4i/iAwesomeMenu/XML\n#FileA=\"libiAwesomeMessage.a\"\n#FileH=\"iAwesomeMessage.h\"\n#FileXML=\"iAwesomeMessage.xml\"\n##----------------------------------------------------------------#\n\n#echo -n \"FolderOutputXML:\" ${FolderOutputXML} && printf \"\\n\"\n#echo -n \"FolderOutputLIBSB4SERVER:\" ${FolderOutputLIBSB4SERVER} && printf \"\\n\"\n#echo -n \"FolderOutputLIBSB4IEXTRA:\" ${FolderOutputLIBSB4IEXTRA} && printf \"\\n\"\n#printf \"*****************************************************\\n\\n\"\n\n#scp ${TARGET_BUILD_DIR}/${FileA} ${FolderOutputXML}\n#scp ${TARGET_BUILD_DIR}/include/${PRODUCT_NAME}/${FileH} ${FolderOutputXML}\n\n#java -jar ${FolderOutputXML}B4Ih2xml.jar ${FolderOutputXML}${FileH} ${FolderOutputXML}${FileXML}\n\n#scp ${FolderOutputXML}/${FileH} ${FolderOutputLIBSB4SERVER}\n#scp ${FolderOutputXML}/${FileA} ${FolderOutputLIBSB4SERVER}\n#scp ${FolderOutputXML}/${FileXML} ${FolderOutputLIBSB4IEXTRA}\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		471E98621A758ED200588D2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				658E59161E53048A009747C8 /* iAwesomeMessage.m in Sources */,
+				658E59171E53048A009747C8 /* RNBlurModalView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		471E98781A758ED300588D2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Debug;
+		};
+		471E98791A758ED300588D2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		471E987B1A758ED300588D2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/iMQTT",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = iAwesomeMessage;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		471E987C1A758ED300588D2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/iMQTT",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = iAwesomeMessage;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		471E98611A758ED200588D2F /* Build configuration list for PBXProject "iAwesomeMessage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				471E98781A758ED300588D2F /* Debug */,
+				471E98791A758ED300588D2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		471E987A1A758ED300588D2F /* Build configuration list for PBXNativeTarget "iAwesomeMessage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				471E987B1A758ED300588D2F /* Debug */,
+				471E987C1A758ED300588D2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 471E985E1A758ED200588D2F /* Project object */;
+}
